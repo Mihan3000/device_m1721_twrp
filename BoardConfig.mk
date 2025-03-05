@@ -15,7 +15,7 @@
 # components.
 
 # Default device path
-LOCAL_PATH := device/xiaomi/mido
+LOCAL_PATH := device/meizu/m1721
 
 # Architecture
 TARGET_ARCH := arm64
@@ -34,7 +34,7 @@ TARGET_2ND_CPU_VARIANT := cortex-a53
 TARGET_BOARD_INFO_FILE := $(LOCAL_PATH)/board-info.txt
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := mido
+TARGET_BOOTLOADER_BOARD_NAME := m1721
 TARGET_NO_BOOTLOADER := true
 
 # Build env.
