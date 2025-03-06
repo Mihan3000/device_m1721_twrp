@@ -1,7 +1,7 @@
 # <mount_point>  <fstype>  <device>        <device2>                  <flags>
 /system           ext4     /dev/block/bootdevice/by-name/system       flags=display="System";backup=1;wipeingui;mounttodecrypt
 /system_image     emmc     /dev/block/bootdevice/by-name/system       flags=backup=1;flashimg=1
-/data             ext4     /dev/block/bootdevice/by-name/userdata     flags=encryptable=footer;flags=length=-16384;fileencryption=aes-256-xts
+/data             ext4     /dev/block/bootdevice/by-name/userdata     flags=length=-16384;fileencryption=aes-256-xts
 /boot             emmc     /dev/block/bootdevice/by-name/boot         flags=display="Boot"
 /cache            ext4     /dev/block/bootdevice/by-name/cache        flags=display="Cache"
 /vendor           ext4     /dev/block/bootdevice/by-name/custom	      flags=display="Vendor/Custom";backup=1;wipeingui;mounttodecrypt
